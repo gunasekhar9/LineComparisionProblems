@@ -13,9 +13,10 @@ namespace LineComparision
             LineCalculating lineTwo = new LineCalculating(1.0, 5.0, 3.0, 9.0);
             double lengthTwo = lineTwo.LengthCalculate();
             Console.WriteLine("The length of the second line is {0}", lengthTwo);
+            lineTwo.Check(lengthOne, lengthTwo);
         }
     }
 }
-      
-    
+
+
 
