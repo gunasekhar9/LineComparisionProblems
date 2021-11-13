@@ -6,6 +6,7 @@ namespace LineComparision
 {
     public class LineCalculating
     {
+        //
         double xOnePoint, xTwoPoint, yOnePoint, yTwoPoint;
         public LineCalculating(double xOnePoint, double xTwoPoint, double yOnePoint, double yTwoPoint)
         {
@@ -21,7 +22,7 @@ namespace LineComparision
         }
         public void Check(double lengthOne, double lengthTwo)
         {
-            if (lengthOne.CompareTo(lengthTwo) == 0)
+            if (lengthOne.Equals(lengthTwo))
             {
                 Console.WriteLine("The two lines are equal");
             }
